@@ -16,13 +16,19 @@
         </div>
         <h1>Create daily routine</h1>
         </div>
+        <Card/>
       </div>
     </section>
   </div>
 </template>
 
 <script>
-export default {}
+import Card from '~/components/card/index.vue';
+export default {
+  components:{
+    Card,
+  }
+}
 </script>
 
 <style>

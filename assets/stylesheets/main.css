@@ -134,6 +134,7 @@
   line-height: 150.5%;
   background-color: #4246c9;
   color: #ffffff;
+  cursor: pointer;
 }
 
 #registration .reg {
@@ -216,6 +217,7 @@
   background-color: #4246c9;
   color: #ffffff;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 #registration .reg .right #form .log {
@@ -257,7 +259,13 @@
   margin-top: 30px;
 }
 
+#login .left .about .img {
+  padding-left: 200px;
+}
+
 #login .left .about .text {
+  padding-left: 100px;
+  margin-top: 55px;
   font-weight: 400;
   font-size: 14px;
   line-height: 150.5%;
@@ -348,6 +356,7 @@
   background-color: #4246c9;
   color: #ffffff;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 #login .reg .right #form .log {
@@ -363,6 +372,194 @@
 
 #login .reg .right #form .log a {
   padding: 6px 10px;
+}
+
+#home {
+  max-width: 1440px;
+  height: 60vh;
+  display: flex;
+}
+
+#home .left {
+  width: 30%;
+  height: auto;
+}
+
+#home .left .left_top {
+  width: 100%;
+  height: auto;
+}
+
+#home .left .left_top .logo {
+  margin: 15px;
+}
+
+#home .left .left_bottom {
+  width: 268px;
+  height: 540px;
+  background: #feffff;
+  border: 1px solid #4246c9;
+}
+
+#home .left .left_bottom .lists {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#home .left .left_bottom .add_task {
+  width: 215px;
+  height: 33px;
+  background: #8875ff;
+  border-radius: 6px;
+  margin-top: 28px;
+  border: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+#home .right {
+  width: 130%;
+  height: auto;
+}
+
+#home .right .right_top {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #4246c9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#home .right .right_top h2 {
+  margin-left: 10px;
+}
+
+#home .right .right_top .search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#home .right .right_top .search .search1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
+  width: 250px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #9f9f9f;
+  border-radius: 1000px;
+}
+
+#home .right .right_top .search .search1 svg {
+  margin-left: 10px;
+}
+
+#home .right .right_top .search .search1 .search2 {
+  margin-left: 10px;
+  outline: none;
+  border: none;
+}
+
+#home .right .right_top .search .photo {
+  margin: 20px;
+}
+
+#home .right .right_top .search .photo img {
+  width: 42px;
+  height: 42px;
+}
+
+#home .right .right_top .search .add {
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: #8875ff;
+  border: none;
+  width: 55px;
+  height: 55px;
+  font-size: 45px;
+  color: white;
+  cursor: pointer;
+}
+
+#home .right .right_bottom {
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#home .right .right_bottom .drobdown {
+  position: relative;
+  display: inline-block;
+  right: 45px;
+  margin: 10px 0 0 20px;
+}
+
+#home .right .right_bottom .drobdown .add {
+  margin-top: 15px;
+  margin-left: 25px;
+  border-radius: 50%;
+  background-color: #8875ff;
+  border: none;
+  width: 55px;
+  height: 55px;
+  font-size: 45px;
+  color: white;
+  cursor: pointer;
+}
+
+#home .right .right_bottom .drobdown .drobdown_content {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+  height: 125px;
+  background: #eeeefa;
+  box-shadow: 4px 5px 4px rgba(66, 70, 201, 0.31);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+#home .right .right_bottom .drobdown .drobdown_content input {
+  position: absolute;
+  width: 130px;
+  height: 30px;
+  left: 5px;
+  top: 20px;
+  background: #ffffff;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
+#home .right .right_bottom .drobdown .drobdown_content .btn {
+  position: absolute;
+  width: 130px;
+  height: 30px;
+  background: #4246c9;
+  border-radius: 6px;
+  border: none;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #ffffff;
+  top: 66px;
+  left: 5px;
+}
+
+#home .right .right_bottom .drobdown:hover .drobdown_content {
+  display: block;
+  margin-top: 10px;
 }
 
 .main .header {
